@@ -10,9 +10,9 @@ The plugins add additional features to Phy
 All new features are accessible from the top menu labeled clustering.
 
 ## ControllerSettings - Extra columns in ClusterView
-*Firing rate
-*Horizontal position
-*Shank number (dependent on the rezToPhy.m version in the KiloSortWrapper)
+* Firing rate
+* Horizontal position
+* Shank number (dependent on the rezToPhy.m version in the KiloSortWrapper)
 
 Adjusting number of spike displayed i FeatureView and WaveformView (delete the local .phy folder located in your data folder, when adjusting these parameters)
 
