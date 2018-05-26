@@ -14,7 +14,7 @@ All new features are accessible from the top menu labeled clustering.
 * Horizontal position
 * Shank number (dependent on the rezToPhy.m version in the KiloSortWrapper)
 
-Adjusting number of spike displayed i FeatureView and WaveformView (delete the local .phy folder located in your data folder, when adjusting these parameters)
+ControllerSettings also allows you to adjust the number of spike displayed i FeatureView (increased to 15,000) and WaveformView (standard: 300). I recommend to delete the local .phy folder in your data folder, when adjusting these parameters.
 
 ## Installation 
 To install, copy the files to your plugins directory (~/.phy/), replacing the existing files and plugins folder.
