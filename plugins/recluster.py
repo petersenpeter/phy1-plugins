@@ -94,7 +94,7 @@ class Recluster(IPlugin):
                 else:
                     program = '~/klustakwik/KlustaKwik'
                 cmd = [program, name, str(shank)]
-                cmd +=["-UseDistributional",'0',"-MinClusters",'2',"-MaxClusters",'12']
+                cmd +=["-UseDistributional",'0']
 
                 # Run KlustaKwik.
                 p = Popen(cmd)
