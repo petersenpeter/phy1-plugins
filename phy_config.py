@@ -16,6 +16,6 @@ except:
 #         pass
 
 c = get_config()
-c.Plugins.dirs = [r'~/.phy/plugins/']#C:/Users/peter/Dropbox/PhyPlugins/plugins/
-c.TemplateGUI.plugins = ['ControllerSettings','Recluster']
+c.Plugins.dirs = [r'~/.phy/plugins/']
+c.TemplateGUI.plugins = ['AmplitudeHistogram','ControllerSettings','Recluster','Export2neurosuite']
 c.KwikGUI.plugins = ['ControllerSettingsKwik']
