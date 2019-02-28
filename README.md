@@ -3,8 +3,8 @@ These plugins add additional features to Phy
 
 ## Features
 * Reclustering. Reclustering with KlustaKwik 2.0 - dependent on a local version of KlustaKwik, which is provided in the zip file for Windows 10) and python package: pandas. To install write “pip install pandas” in the terminal in your phy environment.
-* Outlier removal using the Mahalanobis distance. Standard threshold is 16 standard deviations (adjustable).
-* K-means clustering. Standard separation into two clusters (adjustable).
+* Outlier removal using the Mahalanobis distance. Standard threshold is 16 standard deviations (adjustable threshold).
+* K-means clustering. Standard separation into clusters (adjustable number).
 * Export shank info for each unit. This is necessary if you want to know which shank a given unit was detected on.
 
 All new features are accessible from the top menu labeled clustering.
