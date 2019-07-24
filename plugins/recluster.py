@@ -93,9 +93,9 @@ class Recluster(IPlugin):
                 else:
                     program = '~/klustakwik/KlustaKwik'
                 cmd = [program, name, str(shank)]
-                cmd +=["-UseDistributional",'0'] #,"-MinClusters",'2',"-MaxClusters",'12'
+                cmd +=["-UseDistributional",'0',"-MaxPossibleClusters",'20',"-MinClusters",'20'] #,"-MinClusters",'2',"-MaxClusters",'12'   ,"-MaxClusters",'12',"-MaxClusters",'12'
 
-                # Run KlustaKwik.
+                # Run KlustaKwik
                 p = Popen(cmd)
                 p.wait()
                 # Read back the clusters
@@ -201,7 +201,7 @@ class Recluster(IPlugin):
             def MahalanobisDist(thres_in): #()
                 """Select threshold in STDs.
 
-                Example: `10`
+                Example: `14`
 
                 """
                 logger.warn("Removing outliers by Mahalanobis distance")
