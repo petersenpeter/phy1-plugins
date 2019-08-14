@@ -21,4 +21,5 @@ To install, place the content in your plugins directory (~/.phy/), replacing the
 
 ## How to cite
 Please use below DOI for citing these plugins.
+
 <a href="https://zenodo.org/badge/latestdoi/126424002"><img src="https://zenodo.org/badge/126424002.svg" alt="DOI"></a>
