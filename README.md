@@ -18,3 +18,5 @@ ControllerSettings also allows you to adjust the number of spike displayed i Fea
 
 ## Installation 
 To install, place the content in your plugins directory (~/.phy/), replacing the existing files and plugins folder.
+
+<a href="https://zenodo.org/badge/latestdoi/126424002"><img src="https://zenodo.org/badge/126424002.svg" alt="DOI"></a>
