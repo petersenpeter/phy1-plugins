@@ -1,5 +1,5 @@
-# Plugins to Phy 
-These plugins add additional features to Phy
+# Plugins to Phy1 
+These plugins add additional features to Phy1
 
 ## Features
 * Reclustering. Reclustering with KlustaKwik 2.0 - dependent on a local version of KlustaKwik, which is provided in the zip file for Windows 10) and python package: pandas. To install write “pip install pandas” in the terminal in your phy environment.
